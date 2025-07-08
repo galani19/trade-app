@@ -1,12 +1,6 @@
-2025-07-08 11:50:19,609 INFO BasicBot Binance Client initialized (testnet=True)
-2025-07-08 11:52:14,325 INFO BasicBot Placing market order: SELL 1.0 BTCUSDT
-2025-07-08 11:52:15,232 ERROR BasicBot API Error: APIError(code=-2014): API-key format invalid.
-2025-07-08 11:55:04,754 INFO BasicBot Binance Client initialized (testnet=True)
-2025-07-08 11:55:22,977 INFO BasicBot Placing limit order: BUY 1.0 BTCUSDT) @ 20.0
-2025-07-08 11:55:23,904 ERROR BasicBot API Error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
-2025-07-08 11:55:54,662 INFO BasicBot Placing limit order: SELL 10.0 BTCUSDT @ 200.0
-2025-07-08 11:55:55,480 ERROR BasicBot API Error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
-2025-07-08 11:58:53,794 INFO BasicBot Binance Client initialized (testnet=True)
-2025-07-08 11:59:13,700 INFO BasicBot Binance Client initialized (testnet=True)
-2025-07-08 11:59:33,655 INFO BasicBot Placing market order: BUY 1.0 BTCUSDT
-2025-07-08 11:59:34,568 INFO BasicBot Order response: {'orderId': 5222525157, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJc575d58bd63deeef36f752', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '1.000', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1751968774946}
+2025-07-08 18:30:37,336 INFO BasicBot: Binance Client initialized (testnet=True)
+2025-07-08 18:30:37,661 INFO BasicBot: Placing market order: BUY 0.001 BTCUSDT
+2025-07-08 18:30:37,864 ERROR BasicBot: API Error: APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2025-07-08 18:31:10,833 INFO BasicBot: Binance Client initialized (testnet=True)
+2025-07-08 18:31:11,171 INFO BasicBot: Placing market order: BUY 0.001 BTCUSDT
+2025-07-08 18:31:11,589 INFO BasicBot: Order response: {'orderId': 5223777808, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJd9214ca9c9d13faf90e517', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.001', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1751979667439}

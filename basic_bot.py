@@ -11,6 +11,11 @@ except ImportError:
 except AttributeError:
     ORDER_TYPE_STOP = "STOP"
 
+logging.basicConfig(
+    filename="tradebot.log",
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(name)s: %(message)s"
+)
 class BasicBot:
     def __init__(self, api_key, api_secret, testnet=True):
         self.logger = logging.getLogger("BasicBot")
